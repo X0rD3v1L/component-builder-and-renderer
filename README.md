@@ -3,7 +3,7 @@
 
 ## Overview
 
-Component Builder and Renderer is a powerful drag-and-drop form builder developed using React and Redux. This project allows users to create custom forms effortlessly with real-time rendering capabilities. With over 50 reusable components and a focus on optimizing performance and user experience, this tool is perfect for developers who need a flexible and efficient solution for form creation.
+Component Builder and Renderer is a powerful drag-and-drop form builder developed using React and Redux. This project allows users to create custom forms effortlessly with real-time rendering capabilities. With reusable components and a focus on optimizing performance and user experience, this tool is perfect for developers who need a flexible and efficient solution for form creation.
 
 ## Features
 
