@@ -1,0 +1,25 @@
+.text-area {
+  padding: 0px 10px 0px 10px;
+  font-family: sans-serif;
+  font-size: 12px;
+  outline: none;
+}
+.text-area:disabled {
+  cursor: not-allowed;
+}
+
+.green {
+  border: 1px solid green !important;
+  outline: none;
+}
+.red {
+  border: 1px solid red !important;
+  outline: none;
+}
+
+.text-area:focus {
+  outline: 0;
+}
+.required-char {
+  color: red;
+}

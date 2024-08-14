@@ -1,0 +1,25 @@
+.create-control-modal-header {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 9px 15px;
+    border-bottom:1px solid #eee;    
+}
+.create-control-modal-header .modal-title{
+    color:#fff;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.create-control-save{
+    border: 1px solid #ccc;
+    height: 25vh;
+}
+
+
+
+/* .modal-header .close {
+    color: rgb(124, 14, 14);
+} */
+/* .form-search-grid{
+    max-height: 320px;
+    height: 320px;
+}  */

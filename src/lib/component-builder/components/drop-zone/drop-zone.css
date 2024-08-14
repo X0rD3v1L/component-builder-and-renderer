@@ -1,0 +1,21 @@
+.dropzone-placeholder{
+    font-family: serif;
+    font-size: 20px;
+    margin-left: 350px;
+}
+.dropzone{
+    margin-top: 43px;
+    /* margin-right: 230px; */
+}
+.dropzone.area{
+    /* width: 1020px; */
+    /* margin-left: 25px; */
+    margin-top: -30px;
+    margin-bottom: 35px;
+    height: 550px;
+    /* border: 1px dashed #CCCCCC; */
+    
+}
+.dragged-element{
+    border: 1px dashed #CCCCCC;
+}

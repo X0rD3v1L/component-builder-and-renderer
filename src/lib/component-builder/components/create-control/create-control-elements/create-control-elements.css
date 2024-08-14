@@ -1,0 +1,52 @@
+.control-elements-menu{
+    max-height: 625px;
+    overflow: scroll;
+    width: 220px !important;
+    left: 0px !important;
+    top: 0px !important;
+}
+.control-elements-menu-border{
+    border: #e9e8ed 1px solid;
+    display: block;
+}
+.control-elements-grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+}
+.control-elements-grid-styles{
+    border: #d1d1d1 1px solid;
+    border-radius: 5px;
+    padding: 10px 0 6px 0;
+    text-align: center;
+    margin: 8px;
+    height: 80px;
+    overflow: hidden;
+}
+.control-elements-grid-icons{
+    padding: 7px 11px;
+    color: #4f95f4!important;
+    font-size: 20px;
+    border: #4f95f4 2px solid;
+    border-radius: 5px;
+    margin: 1px 0px 18px 7px;
+}
+/* .control-elements-grid-icons{
+    border: 1px solid;
+    height: 80px;
+    width: 85px;
+    border-color: #ccc;
+    border-radius: 5px 5px 5px 5px;
+    margin: 1px 0px 18px 7px;
+    cursor: pointer;} */
+.control-elements-grid-icon-title{
+    font-family: 'serif';
+    color: #000000;
+    font-size: 11px;
+    margin: 8px;
+    text-align: center;
+    white-space: nowrap;
+    overflow:hidden;
+    margin: 7px !important;
+    overflow: hidden;
+}

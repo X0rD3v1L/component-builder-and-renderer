@@ -1,0 +1,8 @@
+.select-styles {
+    width: 100%;
+    height:24px;
+}
+
+.select-styles.form-select:focus {
+    box-shadow: none;
+}

@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Image",
+        "template": "componentBuilder/components/image.html",
+        "icon": "fa fa-picture-o",
+        "settings": {
+            "icon": true,
+            "inputType": "image",
+            "inputMask": "",
+            "key": "image",
+            "isModelNeeded": false,
+            "properties": {
+                "label": "Upload File",
+                "name": "",
+                "id": "",
+                "value": "",
+                "labelSize": "",
+                "labelColor": "",
+                "defaultValue": false,
+                "readonly": false,
+                "disabled": false,
+                "click": false,
+                "show": true,
+                "inline": false,
+                "src": "",
+                "icon": true,
+                "hidden": false,
+                "hideLabel": true,
+                "bootstrapClass": "",
+                "imageStyle": ""
+            },
+            "labelStyles": {
+                "textAlign": "left",
+                "fontStyle": "",
+                "fontSize": "",
+                "fontFamily": "",
+                "fontWeight": "",
+                "textDecoration": "",
+                "textTransform": "",
+                "color": "",
+                "wordWrap": "break-word"
+            },
+            "styles": {
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "width": "80",
+                "height": "80"
+            },
+            "validations": {
+                "required": false
+            },
+            "others": {
+                "errorColor": "",
+                "customCss": "",
+                "customClass": "",
+                "bootstrapGridClass": ""
+            }
+        },
+        "configurations": [
+            {
+                "show": true,
+                "title": "Display",
+                "template": "componentBuilder/components/image/settings.html"
+            },
+            {
+                "title": "Styles",
+                "template": "componentBuilder/components/image/styles.html"
+            },
+            {
+                "title": "Conditions",
+                "template": "componentBuilder/components/common/conditional.html"
+            }
+        ]
+    }
+]

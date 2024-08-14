@@ -1,0 +1,21 @@
+.microphone-status-rec button {
+    /* content: '\f130'; */
+    color: red !important;
+    animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+}
+@keyframes blinker {
+    from { opacity: 1;}
+    to { opacity: 0.3;}
+}
+
+.microphone-status-stop button{
+    /* content: '\f130'; */
+    color: green !important;    
+}
+
+.text-field-input{
+    width: calc(99% - 17px);
+    float: left;
+    outline: none;
+    width: 98%;
+}

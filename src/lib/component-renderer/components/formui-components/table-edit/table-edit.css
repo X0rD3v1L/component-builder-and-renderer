@@ -1,0 +1,8 @@
+.window-close-edit{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.render-table th{
+border-right: 1px solid #d1d1d1;
+}

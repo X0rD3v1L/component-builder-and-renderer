@@ -1,0 +1,26 @@
+.checkbox-styles input[type="checkbox"] {
+    position: relative;
+    border: none;
+    margin-right: 4px;
+    margin-bottom: -2px;
+    cursor: pointer;
+    top: 6px;
+}
+
+.checkbox-styles .form-check-input.is-invalid, .was-validated .form-check-input:invalid {
+    border-color: #dc3545;
+}
+.checkbox-styles .invalid {
+    /* border-color: red; */
+}
+.invalid input[type=checkbox]::after  {
+    content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    margin-top: 0;
+    margin-right: 5px;
+    border: 1px solid #ff6262;
+    border-radius: 2px;
+    background: #fff;
+}

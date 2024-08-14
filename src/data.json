@@ -1,0 +1,603 @@
+[
+    {
+        "title": "Table - Add",
+        "template": "componentBuilder/components/grids.html",
+        "icon": "fa fa-table",
+        "settings": {
+            "icon": true,
+            "inputType": "grid",
+            "inputMask": "",
+            "key": "grids",
+            "isModelNeeded": true,
+            "properties": {
+                "label": "Table Add",
+                "name": "grids80224",
+                "id": "grids80224",
+                "value": "",
+                "labelSize": "",
+                "labelColor": "",
+                "defaultValue": false,
+                "readonly": false,
+                "disabled": false,
+                "required": false,
+                "click": false,
+                "show": true,
+                "inline": false,
+                "model": "grids80224",
+                "icon": true,
+                "hidden": false,
+                "hideLabel": false,
+                "bootstrapClass": "",
+                "options": [
+                    {
+                        "key": 1,
+                        "value": "Field 1",
+                        "isMandatory": false,
+                        "$$hashKey": "object:677"
+                    },
+                    {
+                        "key": 2,
+                        "value": "Field 2",
+                        "isMandatory": false,
+                        "$$hashKey": "object:678"
+                    },
+                    {
+                        "key": 3,
+                        "value": "Field 3",
+                        "isMandatory": false,
+                        "$$hashKey": "object:679"
+                    },
+                    {
+                        "key": 4,
+                        "value": "Field 4",
+                        "isMandatory": false,
+                        "$$hashKey": "object:680"
+                    }
+                ]
+            },
+            "labelStyles": {
+                "color": "",
+                "fontSize": "",
+                "fontWeight": "",
+                "backgroundColor": "",
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "wordWrap": "break-word"
+            },
+            "styles": {
+                "textAlign": "",
+                "fontStyle": "",
+                "fontSize": "",
+                "fontFamily": "",
+                "fontWeight": "",
+                "color": "",
+                "backgroundColor": "",
+                "customCss": "",
+                "customClass": "",
+                "marginLeft": "",
+                "marginRight": 5,
+                "marginTop": "",
+                "marginBottom": "",
+                "paddingLeft": "",
+                "paddingRight": "",
+                "paddingTop": "",
+                "paddingBottom": "",
+                "display": "",
+                "width": "",
+                "float": "left"
+            },
+            "headerStyles": {
+                "textAlign": "",
+                "fontStyle": "",
+                "fontSize": "",
+                "fontFamily": "",
+                "fontWeight": "",
+                "color": "",
+                "backgroundColor": "",
+                "customCss": "",
+                "customClass": "",
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "paddingLeft": "",
+                "paddingRight": "",
+                "paddingTop": "",
+                "paddingBottom": "",
+                "display": "",
+                "width": ""
+            },
+            "rowStyles": {
+                "textAlign": "",
+                "fontStyle": "",
+                "fontSize": "",
+                "fontFamily": "",
+                "fontWeight": "",
+                "color": "",
+                "backgroundColor": "",
+                "customCss": "",
+                "customClass": "",
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "paddingLeft": "",
+                "paddingRight": "",
+                "paddingTop": "",
+                "paddingBottom": "",
+                "display": "",
+                "width": ""
+            },
+            "tableStyles": {
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "width": ""
+            },
+            "validations": {
+                "required": false
+            },
+            "others": {
+                "errorColor": "",
+                "customCss": "",
+                "customClass": "",
+                "bootstrapGridClass": ""
+            },
+            "conditional": {
+                "show": null,
+                "when": null,
+                "eq": ""
+            },
+            "type": "grids"
+        },
+        "configurations": [
+            {
+                "show": true,
+                "title": "Display",
+                "template": "componentBuilder/components/grids/settings.html"
+            },
+            {
+                "title": "Styles-Label",
+                "template": "componentBuilder/components/grids/stylesLabel.html"
+            },
+            {
+                "title": "Styles-text",
+                "template": "componentBuilder/components/grids/styles.html"
+            },
+            {
+                "title": "Styles-table-Header",
+                "template": "componentBuilder/components/grids/headerStyles.html"
+            },
+            {
+                "title": "Styles-table-Row",
+                "template": "componentBuilder/components/grids/rowStyles.html"
+            },
+            {
+                "title": "Styles-table",
+                "template": "componentBuilder/components/grids/tableStyles.html"
+            },
+            {
+                "title": "Validations",
+                "template": "componentBuilder/components/grids/validations.html"
+            },
+            {
+                "title": "Conditions",
+                "template": "componentBuilder/components/common/conditional.html"
+            }
+        ],
+        "componentId": "component-91083"
+    },
+    {
+        "title": "Table - Edit",
+        "template": "componentBuilder/components/table-edit.html",
+        "icon": "fa fa-table",
+        "settings": {
+            "icon": true,
+            "inputType": "table-edit",
+            "inputMask": "",
+            "key": "table-edit",
+            "isModelNeeded": true,
+            "properties": {
+                "label": "Table Edit",
+                "name": "table-edit14710",
+                "id": "table-edit14710",
+                "value": "",
+                "labelSize": "",
+                "labelColor": "",
+                "defaultValue": false,
+                "readonly": false,
+                "disabled": false,
+                "required": false,
+                "click": false,
+                "show": true,
+                "inline": false,
+                "model": "table-edit14710",
+                "icon": true,
+                "hidden": false,
+                "hideLabel": false,
+                "bootstrapClass": "",
+                "options": [
+                    {
+                        "key": 1,
+                        "value": "Field 1",
+                        "isMandatory": false,
+                        "$$hashKey": "object:689"
+                    },
+                    {
+                        "key": 2,
+                        "value": "Field 2",
+                        "isMandatory": false,
+                        "$$hashKey": "object:690"
+                    },
+                    {
+                        "key": 3,
+                        "value": "Field 3",
+                        "isMandatory": false,
+                        "$$hashKey": "object:691"
+                    },
+                    {
+                        "key": 4,
+                        "value": "Field 4",
+                        "isMandatory": false,
+                        "$$hashKey": "object:692"
+                    }
+                ]
+            },
+            "labelStyles": {
+                "color": "",
+                "fontSize": "",
+                "fontWeight": "",
+                "backgroundColor": "",
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "wordWrap": "break-word"
+            },
+            "styles": {
+                "textAlign": "",
+                "fontStyle": "",
+                "fontSize": "",
+                "fontFamily": "",
+                "fontWeight": "",
+                "color": "",
+                "backgroundColor": "",
+                "customCss": "",
+                "customClass": "",
+                "marginLeft": "",
+                "marginRight": 5,
+                "marginTop": "",
+                "marginBottom": "",
+                "paddingLeft": "",
+                "paddingRight": "",
+                "paddingTop": "",
+                "paddingBottom": "",
+                "display": "",
+                "width": "",
+                "float": "left"
+            },
+            "headerStyles": {
+                "textAlign": "",
+                "fontStyle": "",
+                "fontSize": "",
+                "fontFamily": "",
+                "fontWeight": "",
+                "color": "",
+                "backgroundColor": "",
+                "customCss": "",
+                "customClass": "",
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "paddingLeft": "",
+                "paddingRight": "",
+                "paddingTop": "",
+                "paddingBottom": "",
+                "display": "",
+                "width": ""
+            },
+            "rowStyles": {
+                "textAlign": "",
+                "fontStyle": "",
+                "fontSize": "",
+                "fontFamily": "",
+                "fontWeight": "",
+                "color": "",
+                "backgroundColor": "",
+                "customCss": "",
+                "customClass": "",
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "paddingLeft": "",
+                "paddingRight": "",
+                "paddingTop": "",
+                "paddingBottom": "",
+                "display": "",
+                "width": ""
+            },
+            "tableStyles": {
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "width": ""
+            },
+            "validations": {
+                "required": false
+            },
+            "others": {
+                "errorColor": "",
+                "customCss": "",
+                "customClass": "",
+                "bootstrapGridClass": ""
+            },
+            "conditional": {
+                "show": null,
+                "when": null,
+                "eq": ""
+            },
+            "type": "Table-Inline"
+        },
+        "configurations": [
+            {
+                "show": true,
+                "title": "Display",
+                "template": "componentBuilder/components/table-edit/settings.html"
+            },
+            {
+                "title": "Styles-Label",
+                "template": "componentBuilder/components/table-edit/stylesLabel.html"
+            },
+            {
+                "title": "Styles-text",
+                "template": "componentBuilder/components/table-edit/styles.html"
+            },
+            {
+                "title": "Styles-table-Header",
+                "template": "componentBuilder/components/table-edit/headerStyles.html"
+            },
+            {
+                "title": "Styles-table-Row",
+                "template": "componentBuilder/components/table-edit/rowStyles.html"
+            },
+            {
+                "title": "Styles-table",
+                "template": "componentBuilder/components/table-edit/tableStyles.html"
+            },
+            {
+                "title": "Validations",
+                "template": "componentBuilder/components/table-edit/validations.html"
+            },
+            {
+                "title": "Conditions",
+                "template": "componentBuilder/components/common/conditional.html"
+            }
+        ],
+        "componentId": "component-75053"
+    },
+    {
+        "title": "Table",
+        "template": "componentBuilder/components/tableStatic.html",
+        "icon": "fa fa-table",
+        "settings": {
+            "icon": true,
+            "inputType": "tableStatic",
+            "inputMask": "",
+            "key": "tableStatic",
+            "isModelNeeded": true,
+            "properties": {
+                "label": "Table",
+                "name": "tableStatic84214",
+                "id": "tableStatic84214",
+                "value": "",
+                "labelSize": "",
+                "labelColor": "",
+                "defaultValue": false,
+                "readonly": false,
+                "disabled": false,
+                "required": false,
+                "click": false,
+                "show": true,
+                "inline": false,
+                "model": "tableStatic84214",
+                "icon": true,
+                "hidden": false,
+                "hideLabel": false,
+                "bootstrapClass": "",
+                "options": [
+                    {
+                        "key": 1,
+                        "value": "Field 1",
+                        "isMandatory": false,
+                        "$$hashKey": "object:698"
+                    },
+                    {
+                        "key": 2,
+                        "value": "Field 2",
+                        "isMandatory": false,
+                        "$$hashKey": "object:699"
+                    },
+                    {
+                        "key": 3,
+                        "value": "Field 3",
+                        "isMandatory": false,
+                        "$$hashKey": "object:700"
+                    },
+                    {
+                        "key": 4,
+                        "value": "Field 4",
+                        "isMandatory": false,
+                        "$$hashKey": "object:701"
+                    }
+                ],
+                "data": [
+                    {
+                        "Field 1": "a1",
+                        "Field 2": "a2",
+                        "Field 3": "a3",
+                        "Field 4": "a4",
+                        "$$hashKey": "object:706"
+                    },
+                    {
+                        "Field 1": "b1",
+                        "Field 2": "b2",
+                        "Field 3": "b3",
+                        "Field 4": "b4",
+                        "$$hashKey": "object:707"
+                    },
+                    {
+                        "Field 1": "c1",
+                        "Field 2": "c2",
+                        "Field 3": "c3",
+                        "Field 4": "c4",
+                        "$$hashKey": "object:708"
+                    }
+                ]
+            },
+            "labelStyles": {
+                "color": "",
+                "fontSize": "",
+                "fontWeight": "",
+                "backgroundColor": "",
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "wordWrap": "break-word"
+            },
+            "styles": {
+                "textAlign": "",
+                "fontStyle": "",
+                "fontSize": "",
+                "fontFamily": "",
+                "fontWeight": "",
+                "color": "",
+                "backgroundColor": "",
+                "customCss": "",
+                "customClass": "",
+                "marginLeft": "",
+                "marginRight": 5,
+                "marginTop": "",
+                "marginBottom": "",
+                "paddingLeft": "",
+                "paddingRight": "",
+                "paddingTop": "",
+                "paddingBottom": "",
+                "display": "",
+                "width": "",
+                "float": "left"
+            },
+            "headerStyles": {
+                "textAlign": "",
+                "fontStyle": "",
+                "fontSize": "",
+                "fontFamily": "",
+                "fontWeight": "",
+                "color": "",
+                "backgroundColor": "",
+                "customCss": "",
+                "customClass": "",
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "paddingLeft": "",
+                "paddingRight": "",
+                "paddingTop": "",
+                "paddingBottom": "",
+                "display": "",
+                "width": ""
+            },
+            "rowStyles": {
+                "textAlign": "",
+                "fontStyle": "",
+                "fontSize": "",
+                "fontFamily": "",
+                "fontWeight": "",
+                "color": "",
+                "backgroundColor": "",
+                "customCss": "",
+                "customClass": "",
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "paddingLeft": "",
+                "paddingRight": "",
+                "paddingTop": "",
+                "paddingBottom": "",
+                "display": "",
+                "width": ""
+            },
+            "tableStyles": {
+                "marginLeft": "",
+                "marginRight": "",
+                "marginTop": "",
+                "marginBottom": "",
+                "width": ""
+            },
+            "validations": {
+                "required": false
+            },
+            "others": {
+                "errorColor": "",
+                "customCss": "",
+                "customClass": "",
+                "bootstrapGridClass": ""
+            },
+            "conditional": {
+                "show": null,
+                "when": null,
+                "eq": ""
+            },
+            "type": "Table"
+        },
+        "configurations": [
+            {
+                "show": true,
+                "title": "Display",
+                "template": "componentBuilder/components/tableStatic/settings.html"
+            },
+            {
+                "title": "Data",
+                "template": "componentBuilder/components/tableStatic/data.html",
+                "show": true
+            },
+            {
+                "title": "Styles-Label",
+                "template": "componentBuilder/components/tableStatic/stylesLabel.html"
+            },
+            {
+                "title": "Styles-text",
+                "template": "componentBuilder/components/tableStatic/styles.html"
+            },
+            {
+                "title": "Styles-table-Header",
+                "template": "componentBuilder/components/tableStatic/headerStyles.html"
+            },
+            {
+                "title": "Styles-table-Row",
+                "template": "componentBuilder/components/tableStatic/rowStyles.html"
+            },
+            {
+                "title": "Styles-table",
+                "template": "componentBuilder/components/tableStatic/tableStyles.html"
+            },
+            {
+                "title": "Validations",
+                "template": "componentBuilder/components/tableStatic/validations.html"
+            },
+            {
+                "title": "Conditions",
+                "template": "componentBuilder/components/common/conditional.html"
+            }
+        ],
+        "componentId": "component-22491"
+    }
+]

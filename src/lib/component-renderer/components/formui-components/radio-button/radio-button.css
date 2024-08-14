@@ -1,0 +1,8 @@
+.radio-styles:disabled{
+    background-color: #EEEEEE;
+    cursor: not-allowed;
+}
+.score-input:disabled{
+    background-color: #EEEEEE;
+    cursor: not-allowed;
+}

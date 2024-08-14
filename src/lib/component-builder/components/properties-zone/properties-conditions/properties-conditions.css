@@ -1,0 +1,23 @@
+.prop-label{
+    color: #363843;
+    font-size: 12px;
+    font-weight: 400!important;
+    margin-bottom: 2px!important;
+}
+.prop-dropdown{
+    color: #363843;
+    padding: 0 10px;
+    height: 26px;
+    font-size: 12px;
+    border-radius: 0!important;
+    font-family: Open Sans;
+}
+.show-width{
+    width: 30%;
+}
+.when-width{
+    width: 70%;
+}
+.is-width{
+    width:80%;
+}

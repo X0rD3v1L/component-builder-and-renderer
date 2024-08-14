@@ -1,0 +1,99 @@
+.render-row-styles input[type="radio"] {
+    content: "";
+    position: relative;
+    /* display: inline-block; */
+    margin-bottom: 0px;
+    font-weight: 400;
+    vertical-align: text-top;
+    cursor: pointer;
+    line-height: normal;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px; 
+}
+.render-row-styles input[type="radio"]:after {
+    position: relative;
+    top: -2px;
+    left: -1px;
+    border: 1px solid red;
+}
+.render-row-styles input[type="radio"]:before {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+    z-index: 2;
+    background-color: #149b1a;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.render-row-styles input[type="radio"]:after,.render-row-styles input[type="radio"]:before {
+    background-color: #fff;
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: 240ms;
+    border: 1px solid #aaa;
+}
+.req-check input[type="radio"]:after,.req-check input[type="radio"]:before {
+    border: 1px solid #ff6262;
+}
+
+.render-row-styles input[type="radio"]:checked:after {
+    background-color: #ffffff;
+    border: 1px solid #3596ff;
+}
+
+.render-row-styles input[type="radio"]:checked:before {
+    background-color: #6381DC;
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: 240ms;
+    border: 1px solid #6381DC;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+}
+.required {
+    color: red;
+}
+.render-row-styles {
+    margin-right: unset !important;
+    margin-left: unset !important;
+}
+.printWidth{
+    width: 500px;
+}
+.render-row-styles .form-control.is-valid, .was-validated .render-row-styles .form-control:valid {
+    background-image: none;
+}
+.form-select.is-valid:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size="1"], .was-validated .render-row-styles .form-select:valid:not([multiple]):not([size]), .was-validated .render-row-styles .form-select:valid:not([multiple])[size="1"], .was-validated .render-row-styles .form-select:invalid:not([multiple]):not([size]) {
+    background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27%23343a40%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27M2 5l6 6 6-6%27/%3e%3c/svg%3e');
+}
+.render-row-styles .form-select.is-valid, .was-validated .render-row-styles .form-select:valid, .render-row-styles .form-control.is-valid, .was-validated .render-row-styles .form-control:valid {
+    border-color: #cbd1e0 !important;
+    box-shadow:unset !important
+}
+.render-row-styles .form-select:focus, .render-row-styles .form-select.is-valid:focus, .was-validated .render-row-styles .form-select:valid:focus,  .was-validated .render-row-styles .form-select:invalid:focus, .was-validated .render-row-styles .form-control:invalid:focus, .render-row-styles .form-control.is-invalid:focus {
+    box-shadow: none;
+}
+.render-row-styles .form-control.is-invalid, .was-validated .render-row-styles .form-control:invalid {
+    background-image: unset;
+}
+.font-styles {
+    font-size: 12px;
+}
+.dragged-element{
+    border: 1px dashed #CCCCCC;
+    /* margin: 5px 5px 5px 5px; */
+    padding: 2px 10px 2px 10px;
+    position: relative;
+}
+.hoveredStyles {
+    position: absolute;
+    right: 0px;
+    top:0px;
+}

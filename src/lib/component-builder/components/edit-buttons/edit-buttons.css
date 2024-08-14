@@ -1,0 +1,12 @@
+.edit-buttons {
+    display: flex;
+}
+.edit-buttons > * {
+    padding: 0px 4px;
+    border: 1px solid;
+    border-color: #ccc;
+    font-size: 10px;
+}
+.edit-buttons .close-styles {
+    color: #d9534f;
+}

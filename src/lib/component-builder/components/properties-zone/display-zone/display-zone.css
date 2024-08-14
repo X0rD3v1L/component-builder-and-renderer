@@ -1,0 +1,64 @@
+.display-zone-label{
+    color: #7d7d7d;
+    font-size: 12px;
+    font-weight: normal !important;
+    /* padding-left: 5px; */
+    width:163px;
+    /* margin-right: 10px; */
+}
+.display-zone-option{
+    color: #7d7d7d;
+    padding: 0 10px;
+    height: 26px;
+    font-size: 12px;
+    border-radius: 0 !important;
+    border:1px solid #ccc;
+    background-color: #fff;
+    width: 96px;
+    /* margin-left: 5px; */
+}
+.display-zone-textarea{
+    color: #7d7d7d;
+    padding: 0 10px;
+    height: 300px;
+    width: 190px;
+    font-size: 12px;
+    border-radius: 0 !important;
+    border:1px solid #ccc;
+    background-color: #fff;
+    /* margin-left: 5px; */
+}
+.display-zone-select{
+    color: #7d7d7d;
+    padding: 0 10px;
+    height: 26px;
+    font-size: 12px;
+    border-radius: 0 !important;
+    border:1px solid #ccc;
+    background-color: #fff;
+    width: 150px;
+    /* margin-left: 5px; */
+}
+.options-display-btn{
+    padding: 0px 9px;
+    font-size: 21px;
+    line-height: 0.5;
+    border: 1px solid #ccc;
+    color: #333;
+    background-color: #fff;
+    height:26px;
+    margin-left:-54px;
+}
+.display-zone-colorpicker{
+    color: #7d7d7d;
+    padding: 3px 10px;
+    height: 26px;
+    font-size: 12px;
+    border-radius: 0 !important;
+    width: 150px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.display-zone-checkbox{
+    margin-left:-50px;
+}
